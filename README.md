@@ -12,5 +12,7 @@ can ssh -X and get the login to work. On whichever machine you are.
 It is tested on Vagrant 1.6+. Just git clone and do
 
 ```
-vagrant up
+./run
 ```
+
+from within the root of the repository
