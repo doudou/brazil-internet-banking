@@ -17,5 +17,6 @@ package { 'oracle-java7-installer':
             Exec['setup-java-license-2'] ]
 }
 package { 'chromium-browser':
+    ensure => '18.0.1025.151~r130497-0ubuntu1',
     require => Exec['apt_update'] }
 
